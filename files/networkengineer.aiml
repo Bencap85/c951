@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+	    <pattern>NETWORK ENGINEER DECISION</pattern>
+	    <template>Based on your strengths in networking and preference to avoid coding, a career as a <b>Network Engineer</b> would be good choice for you.
+	    <button>
+	        <text>Go again</text>
+	        <postback>READY TO START</postback>
+	    </button>
+	    <button>
+	        <text>Exit</text>
+	        <postback>EXIT</postback>
+	    </button>
+	    
+	    </template>
+	</category>
+</aiml>

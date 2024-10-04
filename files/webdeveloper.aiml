@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>WEB DEVELOPER DECISION</pattern>
+	    <template>Due to your love of coding and knowledge of the web, a career as a <b>Web Developer</b> would suit you well.
+	    <button>
+	        <text>Go again</text>
+	        <postback>READY TO START</postback>
+	    </button>
+	    <button>
+	        <text>Exit</text>
+	        <postback>EXIT</postback>
+	    </button>
+	    
+	    </template>
+	</category>
+</aiml>

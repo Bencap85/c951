@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>READY TO START</pattern>
+	    <template>To begin, I need to ask you a few questions. <srai>ENJOY CODING</srai></template>
+	</category>
+	<category>
+	    <pattern>NOT READY TO START</pattern>
+	    <template>Okay, let me know when you're ready to begin</template>
+	</category>
+	<category>
+	    <pattern>^ READY ^</pattern>
+	    <template>Great! <srai>READY TO START</srai></template>
+	</category>
+	<category>
+	    <pattern>EXIT</pattern>
+	    <template>Goodbye!</template>
+	</category>
+</aiml>

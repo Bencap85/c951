@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>SOFTWARE ENGINEER DECISION</pattern>
+	    <template>Due to your love of coding and strength in writing desktop applications, a <b>Software Engineer</b> role might be perfect for you.
+	    <button>
+	        <text>Go again</text>
+	        <postback>READY TO START</postback>
+	    </button>
+	    <button>
+	        <text>Exit</text>
+	        <postback>EXIT</postback>
+	    </button>
+	    
+	    </template>
+	</category>
+</aiml>

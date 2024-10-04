@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+	    <pattern>SOFTWARE TESTER DECISION</pattern>
+	    <template>One computer science career that might work for based on your indifference to coding and preference to avoid working with networks and security is that of a <b>Software Tester</b>.
+	    <button>
+	        <text>Go again</text>
+	        <postback>READY TO START</postback>
+	    </button>
+	    <button>
+	        <text>Exit</text>
+	        <postback>EXIT</postback>
+	    </button>
+	    
+	    </template>
+	</category>
+</aiml>

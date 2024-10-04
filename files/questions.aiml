@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>ENJOY CODING</pattern>
+	    <template>Do you enjoy coding?
+    	    <button>
+    	        <text>yes</text>
+    	        <postback>SKILLED IN WEB OR DESKTOP</postback>
+    	    </button>
+    	    <button>
+    	        <text>no</text>
+    	        <postback>ENJOY NETWORKS AND SECURITY</postback>
+    	    </button>
+	    </template>
+	</category>
+	<category>
+	    <pattern>SKILLED IN WEB OR DESKTOP</pattern>
+	    <template>Do you more experience in developing websites or desktop applications?
+    	    <button>
+    	        <text>websites</text>
+    	        <postback>WEB DEVELOPER DECISION</postback>
+    	    </button>
+    	    <button>
+    	        <text>desktop software</text>
+    	        <postback>SOFTWARE ENGINEER DECISION</postback>
+    	    </button>
+        </template>
+	</category>
+	<category>
+	    <pattern>ENJOY NETWORKS AND SECURITY</pattern>
+	    <template>Do you enjoy working with networks and security?
+    	    <button>
+    	        <text>yes</text>
+    	        <postback>SKILLED IN NETWORKS OR SECURITY</postback>
+    	    </button>
+    	    <button>
+    	        <text>no</text>
+    	        <postback>SOFTWARE TESTER DECISION</postback>
+    	    </button>
+        </template>
+	</category>
+	<category>
+	    <pattern>SKILLED IN NETWORKS OR SECURITY</pattern>
+	    <template>Which do you feel more skilled in: networks or security?
+    	    <button>
+    	        <text>networks</text>
+    	        <postback>NETWORK ENGINEER DECISION</postback>
+    	    </button>
+    	    <button>
+    	        <text>security</text>
+    	        <postback>CYBERSECURITY ANALYST DECISION</postback>
+    	    </button>
+        </template>
+	</category>
+	
+</aiml>
